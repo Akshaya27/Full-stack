@@ -1,0 +1,6 @@
+HTML and CSS
+java script
+Bootstrap
+HTML5 and css3 
+jQuery
+application development using API
