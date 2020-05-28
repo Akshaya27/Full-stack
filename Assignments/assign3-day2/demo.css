@@ -1,0 +1,18 @@
+h1{
+    color:red;
+    text-align: center;
+    text-transform:uppercase;
+    font-style: italic;
+}
+h2{
+    color:orchid;
+    text-align : left;
+    text-transform:lowercase;
+    font-style: oblique;
+}
+h3{
+    color:rgb(101, 45, 153);
+    text-align: right;
+    text-transform:capitalize;
+    font-style: oblique;
+}
