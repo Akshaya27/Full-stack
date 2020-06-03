@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function check()
+            {
+            var v1,v2;
+            v1=document.getElementById("txtuname").value;
+                if(/^[A-Z][A-Za-z]{4,8}$/.test(v1))
+                     {
+                    window.alert('valid');
+                      
+                        }
+                    else{
+                    window.alert('invalid..!');
+                      
+                        }
+            v2 = document.getElementById("txtpass").value;
+            if( /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])/.test(v2)) 
+             { 
+            window.alert('Correct, try another...')
+           
+             }   
+             else
+                { 
+                    window.alert('Wrong...!')
+                   
+                    }
+            }  
+        </script>
+    </head>
+    <body>
+        username:<input type="text" id="txtuname" placeholder="enter username"/><br/><br/>
+        Full name:<input type="text" placeholder="enter full name"><br/><br/>
+        Department:<input type="text"  placeholder="enter department"/><br/><br/>
+        Address      : <textarea id="add" rows="10" cols="20"></textarea><br/><br/>
+        password:<input type="password" id="txtpass" placeholder="enter password"/><br/><br/>
+        submit:<button type="button" onclick="check()">submit</button>
+    </body>
+</html>
