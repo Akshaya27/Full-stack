@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration form</title>
+        <link href="register.css" rel="stylesheet"/>
+        <script src="reg.js"></script>
+    </head>
+    <body>
+        <form>
+            <h2>REGISTRATION FORM</h2>
+            First Name:<input type="text" id="a1" name="txtfname"   placeholder="enter first name"/><br/><br/>
+            Last Name:<input type="text" name="txtlname"  placeholder="enter last"/><br/><br/>
+            Email id: <input type="email" name="txtmail "  placeholder="enter email id"/><br/><br/>
+            Phone number: <input type="text" id="a2" name="txtphno "   placeholder="enter email id"/><br/><br/>
+            set password:<input type="password" name="txtpassword"  placeholder="create password"/><br/><br/>
+            retype password:<input type="password" name="txtpassword"  placeholder="retype the password"/><br/><br/>
+            Roll number:<input type="text" name="txtrollno"  placeholder="enter your rollno"/><br/><br/>
+            Gender : <input type="radio" name="gender " />Female
+                     <input type="radio" name="gender " />Male<br/><br/>
+            Date of Birth:  <input type="date" name="txtdate " placeholder="dd/mm/yy"/><br/><br/>
+            Address :<textarea rows="10" cols="20"></textarea><br/><br/>
+            Branch : <select>
+                    <option>CSE</option>
+                    <option>ECE</option>
+                    <option>AERO</option>
+                    <option>CIVIL</option>
+            </select><br/><br/>
+            <button type="button " onclick="fun()">Submit</button>
+            <button type="button">cancel</button>
+        </form>
+    </body>
+</html>

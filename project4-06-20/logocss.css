@@ -1,0 +1,16 @@
+.a1{
+    border: 1px solid black;
+    width: 900px;
+    height: 300px;
+    padding-top: 200px;
+    text-align: center;
+    font-family: sans-serif;
+    
+    background-color: rgb(245, 194, 211);
+    
+}
+input{
+    background-color:rgb(213, 238, 247);
+    border-radius: 10px;
+   
+}

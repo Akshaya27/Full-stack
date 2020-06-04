@@ -1,0 +1,12 @@
+div{
+    background-color: lightgrey;
+    border: 1px solid black;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-left: 300px;
+    width:900px;
+    height:500px;
+}
+input,textarea{
+    border-radius:5px ;
+}
