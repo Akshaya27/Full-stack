@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BootstrapFeedback form </title>
+        <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css"/>
+        <script rel="stylesheet" src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+        <style type="text/css">
+        h1{
+            color:solid black;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;  
+        }
+        
+        </style>
+    </head>
+    <body>
+        <div><h1>Feedback form</h1></div>
+        <div class="container">
+            <form action="" method="POST">
+                <div class="form-group">
+                    <label for="username">Name</label>
+                    <input type="text" class="form-control" id="txtusername" placeholder="Enter Name"/>
+                    </div>
+                    <div class="form-group">
+                    <label for="email">email</label>
+                    <input type="password" class="form-control" id="txtemail" placeholder="enter email"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="Phone number">Phone number</label>
+                        <input type="text" class="form-control" id="txtphonenumber" placeholder="enter phone number"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="Phone number">Feedback</label>
+                            <textarea rows="4" cols="7" class="form-control" id="txtfeedback" placeholder="write something"></textarea>
+                            </div>
+
+                <button type="button" class="btn btn-primary">Submit</button> 
+            </form>
+        </div>
+       
+    </body>
+</html>
